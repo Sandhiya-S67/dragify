@@ -58,7 +58,7 @@ const DragAndDrop = ({ data: intialData }) => {
           [sourceData.heading]: list,
         };
       } else {
-        //When the list is diffrent
+        //When the list is different
         const sourceList = [...pre[sourceData.heading]];
         const destinationList = [...pre[destinationData.heading]];
         console.log(sourceList, destinationList);
